@@ -1,0 +1,28 @@
+.weather-app {
+    display: grid;
+    grid-template-columns: 10px 10px;
+    grid-template-rows: auto;
+    border-style: solid;
+    width: 340px;
+    background-color: #34415b;
+    color: white;
+    border-radius: 12px;
+    position: absolute;
+    right: 25px;
+    bottom: 140px;
+    padding-bottom: 20px;
+}
+
+.weather-app_main {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.weather-app_main img {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
