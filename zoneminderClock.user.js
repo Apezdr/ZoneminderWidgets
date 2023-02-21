@@ -3,7 +3,7 @@
 // @namespace    zoneminderClock
 // @version      0.1
 // @description  Add a clock, bottom right gray space.
-// @author       Adam
+// @author       adamdrumm.com
 // @match        http://192.168.1.2/zm/*view=montage*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=1.39
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
