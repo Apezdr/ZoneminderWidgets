@@ -3,7 +3,7 @@
 // @namespace    zoneminderWeather
 // @version      0.22
 // @description  Add a weather widget using openweathermap.org API, shows up on montage screen bottom right.
-// @author       Adam
+// @author       adamdrumm.com
 // @match        http://192.168.1.39/zm/*view=montage*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=1.39
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
