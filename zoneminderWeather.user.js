@@ -39,7 +39,7 @@ var $boilerplateHTML = $(`<div class='weather-app'>
 </div>`);
 
 var weather = {
-    get: ()=>{
+    get: () => {
         var lat = '35.2982',
             lon = '-81.0159';
 
@@ -61,23 +61,23 @@ var weather = {
             $('.weather-app-footer .last-updated').html(dayjs(lastUpdatedDate).fromNow());
         })
     },
-    updateLastSeen: ()=>{
+    updateLastSeen: () => {
         $('.weather-app-footer .last-updated').html(dayjs(lastUpdatedDate).fromNow());
     }
 }
 
-$(document).ready(()=>{
+$(document).ready(() => {
     GM_addStyle(my_css);
     $('html > head').append($boilerplateCSS);
     $('#monitors').append($boilerplateHTML);
 
 
     weather.get();
-	//
+    //
     // 20 minutes
-    setInterval(()=> weather.get(),1200000);
-	//
-	// 15 seconds
-    setInterval(()=> weather.updateLastSeen(),15000);
+    setInterval(() => weather.get(), 1200000);
+    //
+    // 15 seconds
+    setInterval(() => weather.updateLastSeen(), 15000);
     //weather();
 });
