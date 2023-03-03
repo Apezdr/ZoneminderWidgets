@@ -24,7 +24,7 @@ Chrome Extension - [TamperMonkey Google Extension](https://chrome.google.com/web
 		 - The UI will check to update the "Last Updated:" field every 15 seconds giving a more dynamic feel to the UI so you can get a more accurate idea of how long it has been since it last updated.
  - **Clock Widget**
 	 - [Clock TamperMonkey Install](https://github.com/Apezdr/ZoneminderWidgets/raw/main/zoneminderClock.user.js)
-		 - Clock will use local computer time with localization but 24 hour time is a easy fix [zoneminderClock.user.js](https://github.com/Apezdr/ZoneminderWidgets/blob/main/zoneminderClock.user.js) Line 37 `dateTime.toLocaleTimeString('en-US')` if you change the locale it should do what you want. Google it  :P
+		 - Clock will use local computer time with localization but 24 hour time is a easy fix [zoneminderClock.user.js#L37](https://github.com/Apezdr/ZoneminderWidgets/blob/main/zoneminderClock.user.js#L37) Line 37 `dateTime.toLocaleTimeString('en-US')` if you change the locale it should do what you want. Google it  :P
  - **Width Options**
 	 - [Width Options TamperMonkey Install](https://github.com/Apezdr/ZoneminderWidgets/raw/main/zoneminderWidthOptions.user.js)
 
