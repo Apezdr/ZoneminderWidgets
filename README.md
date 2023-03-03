@@ -12,7 +12,7 @@ This shows the Weather Widget and Time widgets. There is a unpictured script tha
 ## Want to check it out?
 
 ### Install
-Chrome Extension [url]https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en[/url]
+Chrome Extension - [TamperMonkey Google Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
 ## Addons
 
