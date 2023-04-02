@@ -20,6 +20,10 @@
 	grid-row-end: 2;
 }
 
+.weather-app_main__information--temperature {
+    font-size: 30px;
+}
+
 .weather-app_main img {
 	grid-column-start: 2;
 	grid-column-end: 3;
