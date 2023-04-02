@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zoneminder Weather
 // @namespace    zoneminderWeather
-// @version      0.22
+// @version      0.23
 // @description  Add a weather widget using openweathermap.org API, shows up on montage screen bottom right.
 // @author       adamdrumm.com
 // @match        http://192.168.1.39/zm/*view=montage*
