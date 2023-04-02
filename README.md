@@ -54,4 +54,8 @@ Then open your **developer toolbar** (F12) and **open the network tab**. Click t
 Look for the item in the list that begins with "weather?id=" and use the coord object to change your tampermonkey file to match your coordinates.
 ![Example Network Request](https://github.com/Apezdr/ZoneminderWidgets/blob/main/Screenshot%202023-02-20%20204830.png?raw=true)
 
+#### Noticing your CSS Changes aren't updating?
+
+So you just updated your CSS file in github and the changes aren't showing up in your local browser? Easy fix, just update the version number in your tampermonkey script and it will force the dependencies linked to update again. Clever little hack to fix your css woes!
+
 All changes can be made in your browser and do not require you to fork the repo on github, however feel free to do as you wish!
